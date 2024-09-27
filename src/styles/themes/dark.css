@@ -1,0 +1,23 @@
+html[data-theme="dark"] {
+  --color-primary: #4285f4;
+  --color-lightgray: #f4f4f4;
+  --color-gray: #c3c6c8;
+  --color-darkgray: #697172;
+  --color-stockcolor: #00c850;
+  --color-gradient1: linear-gradient(
+    311deg,
+    #914dfe 17.79%,
+    rgba(145, 77, 254, 0) 67.85%
+  );
+  --color-gradient2: linear-gradient(
+    126deg,
+    #814efa 9.59%,
+    rgba(217, 217, 217, 0.12) 81.54%
+  );
+
+  --br-card: 10.508px;
+  --br-header-elm: 6.319px;
+  --br-category-product-card: 14.728px;
+  --br-payment-type-card: 11.8px;
+  --br-btn: 13px;
+}

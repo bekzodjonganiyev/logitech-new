@@ -1,0 +1,217 @@
+{
+    "header": {
+        "topHeader": {
+            "garantyTitle": "На каждый продукт предоставляется 1 год гарантии!",
+            "currency": "Курс валют"
+        },
+        "mainHeader": {
+            "catalog": "Каталог",
+            "searchPlaceholder": "Поиск товаров",
+            "login": "Войти",
+            "liked": "Избранное",
+            "cart": "Корзина",
+            "compare": "Сравнение"
+        },
+        "subHeader": {
+            "topProducts": "Популярные товары",
+            "proSeria": "PRO серия",
+            "gamingSeria": "GAMING серия",
+            "ergoSeria": "ERGO серия",
+            "mxSeria": "MX серия",
+            "combo": "COMBO наборы",
+            "forConference": "Для конференций",
+            "forYou": "Для вас"
+        }
+    },
+    "categoryCards": {
+        "haedsets": "Наушники",
+        "keyboards": "Клавиатуры",
+        "cameras": "Камеры",
+        "mouses": "Мыши"
+    },
+    "productTabs": {
+        "bestSeller": "Бестселлер",
+        "bestPrice": "Лучшая цена",
+        "famous": "Известные"
+    },
+    "featureBanners": {
+        "mxSeries": "Все товары",
+        "gHub": {
+            "description": "С помощью программы Logitech G HUB вы можете легко управлять всеми устройствами из GAMING серии! Например, вы можете управлять DPI и RGB подсветкой для каждого устройства! Также можно настраивать дополнительные кнопки!",
+            "subDescription": "Скачать программу",
+            "downloadForWindows": "Для Windows",
+            "downloadForMacOS": "Для MacOS"
+        },
+        "logiOptions": {
+            "description": "Logitech Options – это мощная и удобная в использовании программа, которая улучшает работу с мышами, клавиатурами и сенсорными панелями Logitech. Настройте ваше устройство через Options для более быстрой и эффективной работы.",
+            "downloadForWindows": "Для Windows",
+            "downloadForMacOS": "Для MacOS"
+        }
+    },
+    "footer": {
+        "whySelectWe": {
+            "title": "Почему выбирают нас",
+            "easyPay": "Удобная оплата",
+            "deliveryService": "Служба доставки",
+            "props": "Реквизиты",
+            "termPayment": "Рассрочка",
+            "showroom": "Шоурум",
+            "programs": "Программы",
+            "contracts": "Контракты"
+        },
+        "aboutCompany": {
+            "title": "О компании",
+            "aboutUs": "О нас",
+            "contacts": "Контакты",
+            "dataPrivacy": "Конфиденциальность данных",
+            "termsOfOffer": "Условия предложения",
+            "systemRules": "Правила системы",
+            "quaestions": "Вопросы",
+            "promotionConditions": "Условия акции"
+        },
+        "contactWithWe": {
+            "title": "Связаться с нами",
+            "numbers": "Телефонные номера:",
+            "email": "Электронная почта:",
+            "socials": "Социальные сети:",
+            "paymentTypes": "Платежные системы"
+        }
+    },
+    "productCard": {
+        "addToCart": "В корзину",
+        "addToFavourite": "Добавить в избранное",
+        "addToCompare": "Добавить в сравнение",
+        "buyOneClick": "Купить в один клик",
+        "cartModal": {
+            "title": "Выберите цвет",
+            "description": "Перед добавлением в корзину выберите цвет!",
+            "color": "Цвета",
+            "inStockCount": "В наличии {{count}} штук",
+            "colorValidateError": "Выбор цвета обязателен"
+        }
+    },
+    "loginModal": {
+        "title": "Вход или регистрация",
+        "phone": "Номер телефона:",
+        "phoneValidateError": "Формат номера телефона: +998 (99) 999-99-99",
+        "privacyTerms": [
+            "Политика конфиденциальности",
+            "Принимаю условия"
+        ],
+        "getCode": "Получить код",
+        "codeSendedToGivenPhone": "Код отправлен на этот номер",
+        "changeNumber": "Изменить номер",
+        "inputCode": "Введите код:"
+    },
+    "categoryPage": {
+        "filterBy": {
+            "catalag": "Категории",
+            "color": "Цвета",
+            "price": "Цена",
+            "tag": "Теги"
+        },
+        "productCount": "{{count}} товаров",
+        "orderBy": {
+            "asc": "По возрастанию цены",
+            "desc": "По убыванию цены"
+        }
+    },
+    "cartsPage": {
+        "title": "Ваша корзина",
+        "popupMsgAdded": "Товар добавлен в корзину",
+        "popupMsgHasInCart": "Товар уже в корзине",
+        "cartItem": {
+            "color": "Цвет",
+            "addToCart": "В корзину",
+            "addToFavourite": "Добавить в избранное"
+        },
+        "myOrder": {
+            "products": "Товары",
+            "vat": "НДС",
+            "total": "Итого",
+            "gotoCheckout": "Перейти к оформлению"
+        }
+    },
+    "productPage": {
+        "color": "Цвета",
+        "price": "Цена",
+        "info": "Информация",
+        "addToCart": "В корзину",
+        "addToFavourite": "Добавить в избранное",
+        "addToCompare": "Добавить в сравнение",
+        "inStockCount": "{{count}} штук в наличии",
+        "buyOneClick": "Купить в один клик",
+        "otherMarketsPrice": "Цены в других магазинах",
+        "garantyBagde": "1 год гарантии на этот продукт",
+        "ratingCount": "{{count}} оценок",
+        "tabs": {
+            "moreInfo": "Подробнее",
+            "comments": "Отзывы"
+        }
+    },
+    "checkoutPage": {
+        "support": "Поддержка",
+        "title": "Оформление заказа",
+        "form": {
+            "personalInfo": "Ваша информация",
+            "deliveryType": "Метод доставки",
+            "deliveryByKourier": "Доставка",
+            "pickupFromStore": "Самовывоз из магазина",
+            "selectRegion": "Выберите регион",
+            "selectDistrict": "Выберите район",
+            "mainAddress": "Улица, дом, микрорайон",
+            "selectAddressFromMap": "Выбрать на карте",
+            "paymentType": {
+                "title": "Выберите способ оплаты",
+                "payOnline": "Оплата картой онлайн",
+                "click": "Мы отправим платежные реквизиты через Click",
+                "clickOnModal": "Оплатить через Click",
+                "payme": "Мы отправим платежные реквизиты через Payme",
+                "paymeOnModal": "Оплатить через Payme",
+                "changeOnlinePaymentType": "Изменить",
+                "payOffline": "Оплата при получении",
+                "cash": "Оплата наличными или картой при получении"
+            }
+        }
+    },
+    "profilePage": {
+        "personalInfo": {
+            "title": "Личный кабинет",
+            "name": "Имя",
+            "surname": "Фамилия",
+            "email": "Электронная почта",
+            "phone": "Телефон",
+            "dob": "Дата рождения",
+            "gender": "Пол",
+            "edit": "Редактировать"
+        },
+        "address": {
+            "title": "Мои адреса",
+            "addNew": "Добавить адрес",
+            "noContentTitle": "Адреса не сохранены",
+            "noContentDescription": "У вас нет сохраненных адресов. Сохраните свой адрес и продолжите"
+        },
+        "order": {
+            "title": "Мои заказы",
+            "status": {
+                "all": "Все заказы",
+                "pending": "В процессе",
+                "complated": "Выполнен",
+                "cancelled": "Отменен",
+                "noContentTitle": "Заказы отсутствуют",
+                "noContentDescription": "В данный момент нет заказов. Пожалуйста, совершите покупку",
+                "gotoBuy": "Перейти к покупкам"
+            }
+        },
+        "returned": {
+            "title": "Возвращенные товары",
+            "noContentTitle": "Возвращенные заказы отсутствуют",
+            "noContentDescription": "В данный момент нет возвращенных заказов. Пожалуйста, совершите покупку",
+            "gotoBuy": "Перейти к покупкам"
+        },
+        "logout": "Выйти"
+    },
+    "favouritePage": {
+        "noContentDescription": "В избранных товаров нет"
+    }
+}

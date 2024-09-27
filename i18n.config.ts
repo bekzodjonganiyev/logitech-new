@@ -1,0 +1,1 @@
+export const i18n = { defaultLocale: 'ru', locales: ['ru', 'uz'] } as const

@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Shadcn variables */
+    --background: 0 0% 100%;
+    --foreground: 20 14.3% 4.1%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+
+    --primary: 24 9.8% 10%;
+    --primary-foreground: 60 9.1% 97.8%;
+
+    --secondary: 60 4.8% 95.9%;
+    --secondary-foreground: 24 9.8% 10%;
+
+    --muted: 60 4.8% 95.9%;
+    --muted-foreground: 25 5.3% 44.7%;
+
+    --accent: 60 4.8% 95.9%;
+    --accent-foreground: 24 9.8% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --ring: 20 14.3% 4.1%;
+
+    --radius: 0.5rem;
+
+    /* Logitech App variables */
+    --color-primary: #914dfe;
+    --color-lightgray: #f4f4f4;
+    --color-gray: #c3c6c8;
+    --color-darkgray: #697172;
+    --color-stockcolor: #00c850;
+    --color-gradient1: linear-gradient(311deg,
+        #914dfe 17.79%,
+        rgba(145, 77, 254, 0) 67.85%);
+    --color-gradient2: radial-gradient(circle at top left,
+        #814efa 0%,
+        rgba(217, 217, 217, 0.12) 100%);
+
+    --br-banner: 20px;
+    --br-card: 10.508px;
+    --br-header-elm: 6.319px;
+    --br-category-product-card: 14.728px;
+    --br-payment-type-card: 11.8px;
+    --br-btn: 13px;
+  }
+
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 60 9.1% 97.8%;
+
+    --card: 20 14.3% 4.1%;
+    --card-foreground: 60 9.1% 97.8%;
+
+    --popover: 20 14.3% 4.1%;
+    --popover-foreground: 60 9.1% 97.8%;
+
+    --primary: 60 9.1% 97.8%;
+    --primary-foreground: 24 9.8% 10%;
+
+    --secondary: 12 6.5% 15.1%;
+    --secondary-foreground: 60 9.1% 97.8%;
+
+    --muted: 12 6.5% 15.1%;
+    --muted-foreground: 24 5.4% 63.9%;
+
+    --accent: 12 6.5% 15.1%;
+    --accent-foreground: 60 9.1% 97.8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --border: 12 6.5% 15.1%;
+    --input: 12 6.5% 15.1%;
+    --ring: 24 5.7% 82.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer base {
+  @import "./themes/dark.css";
+  @import "./themes/light.css";
+}
+
+/* This makes the div an ellipse */
+.ellipse-container {
+  position: relative;
+  width: 180px;
+  height: 180px;
+}
+
+.ellipse-container::before {
+  content: '';
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 95px;
+  /* 2 * rx */
+  height: 160px;
+  /* 2 * ry */
+  background-color: #8755fc;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) rotate(30deg);
+}
+
+/* This makes the div an ellipse */
+
+
+/* LEAFLET REQURED STYLES */
+.leaflet-container {
+  height: 40vh;
+  min-width: 100%;
+  width: 33vw;
+  z-index: 1;
+}
+
+/* LEAFLET REQURED STYLES */
+
+
+/* PRODUCT CART MODAL */
+input:checked+label {
+  border-style: solid;
+  border-color: black;
+}
+
+/* PRODUCT CART MODAL */
+
+
+
+/* CUSTOM SCROLLBAR FOR SEARCH RESULTS */
+.custom-search-results-scrollbar::-webkit-scrollbar {
+  width: 7px;
+}
+
+.custom-search-results-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--color-gray);
+  /* Color of the scrollbar handle */
+  border-radius: 6px;
+  /* Roundness of the scrollbar handle */
+  border: 3px solid var(--color-gray);
+  /* Padding around scrollbar handle */
+}
+
+.custom-search-results-scrollbar::-webkit-scrollbar-thumb {
+  width: 10px;
+}
+
+/* CUSTOM SCROLLBAR FOR SEARCH RESULTS */
+
+
+/* DEBUG */
+.clg-r {
+  border: 1px solid red;
+}
+
+.clg-g {
+  border: 1px solid green;
+}
+
+/* DEBUG */
+
+/* SUPPORT BLUR FOR SAFARI */
+.bg-blur-safari {
+  background-color: #00000053;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+/* SUPPORT BLUR FOR SAFARI */
+
+body{
+  overflow-x: hidden !important;
+}
